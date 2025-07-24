@@ -29,7 +29,7 @@ function StudentRequest() {
     <h1>Lost Item Reports – Student Notice Board</h1>
     <p>These messages were submitted by students of Mailam Engineering College to report lost items. <br />
 If you've seen or found any of these items, kindly submit them to the College Office to help return them to their rightful owners.</p>
-    <div className='container-fluid'>  
+    <div className='container'>  
     <div className="student-request-container container mt-5">
         <h2>Recent Lost Item Messages</h2>
         <p className='report'><b>Each report is formatted like a short personal message or request, viewable by all students:</b></p>
