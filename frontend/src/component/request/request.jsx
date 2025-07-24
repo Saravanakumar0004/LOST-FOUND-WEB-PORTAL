@@ -65,7 +65,7 @@ function Request() {
   return (
     <>
       <Navbar />
-      <section className='container'>
+      <section className='container-fluid'>
         <div className="row">
            <div className="col-lg-6 colume request">
             <h1>Submit a Lost Item Report</h1>
