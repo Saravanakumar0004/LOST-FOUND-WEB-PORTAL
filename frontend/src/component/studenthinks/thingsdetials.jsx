@@ -37,7 +37,7 @@ function ThingsDetails() {
   return (
     <>
     <navbar><Navbar/></navbar>
-    <div className="details container-fluid">
+    <div className="details container">
       <h1>{thing.topic}</h1>
       <img className='img-fluid p-2'  src={thing.image} alt="Found item" />
       <p><strong>Description:</strong> {thing.description}</p>
