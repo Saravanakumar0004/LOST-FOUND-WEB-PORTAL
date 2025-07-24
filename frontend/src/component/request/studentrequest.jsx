@@ -25,7 +25,7 @@ function StudentRequest() {
 
     <>
     <navbar><Navbar/></navbar>
-    <div className="container notice">
+    <div className="container-fluid notice">
     <h1>Lost Item Reports – Student Notice Board</h1>
     <p>These messages were submitted by students of Mailam Engineering College to report lost items. <br />
 If you've seen or found any of these items, kindly submit them to the College Office to help return them to their rightful owners.</p>
