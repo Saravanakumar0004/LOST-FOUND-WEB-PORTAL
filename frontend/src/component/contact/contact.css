@@ -1,6 +1,6 @@
-/* Contact page background image section */
+
 .contactimg {
-    background-image: url('public/Rectangle-6.png');
+    background-image: url('/Rectangle-6.png');
     background-repeat: no-repeat;
     background-position-x: center;
     background-position-y: center;

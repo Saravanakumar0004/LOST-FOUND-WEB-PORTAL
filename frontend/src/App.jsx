@@ -11,7 +11,7 @@ function App() {
     <div className='container-fluid home'>
       <div className='row'>
         <div className="col-lg-6">
-          <img  src="public/Campus View of Mailam Engineering College Villupuram_Campus-view.png" alt="Mailam Engineering College Logo" className='img-fluid image' />
+          <img  src="/Campus View of Mailam Engineering College Villupuram_Campus-view.png" alt="Mailam Engineering College Logo" className='img-fluid image' />
           </div>  
         <div className="col-lg-6 text">
           <h1>Mailam Engineering College Lost & Found Portal</h1>
