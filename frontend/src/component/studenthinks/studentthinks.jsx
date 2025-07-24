@@ -26,7 +26,7 @@ function StudentThinks() {
   return (
   <>
     <navbar><Navbar/></navbar> 
-    <div className='container color'>  
+    <div className='container-fluid color'>  
        <div className="student-thinks-container container pb-5 pt-5">
               <h1 className='mb-5'>View All Found Items</h1>
               <p>These are items submitted to the College Office and posted by the Admin after verification.
