@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     <navbar><Navbar/></navbar> 
-    <div className='container-fluid home'>
+    <div className='container home'>
       <div className='row'>
         <div className="col-lg-6">
           <img  src="public/Campus View of Mailam Engineering College Villupuram_Campus-view.avif" alt="Mailam Engineering College Logo" className='img-fluid image' />
@@ -26,7 +26,7 @@ function App() {
           </div>  
     </div>
     </div>
-    <div className="container-fluid home2">
+    <div className="container home2">
       <div className="row">
         <div className="col-lg-6 text2">
           <h2>Found Something ?</h2>
