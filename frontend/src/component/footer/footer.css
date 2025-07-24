@@ -1,0 +1,45 @@
+.footerbg{
+    background-color: var(--blue) !important;
+     padding-left: 40px;
+     border-top: 2px solid var(--light);
+    padding-top: 40px;
+}
+.footerbg hr{
+    color: white;
+    padding: 10px;
+    padding-top: 10px;
+}
+.mailam{
+    padding-top: 10px;
+}
+.mailam div{
+    color: white;
+}
+.quick  h1{
+    color: white;
+}
+.quick ul{
+    padding-left: 190px;
+    padding-bottom: 30px;
+}
+.follow h1{
+    color: white;
+}
+.follow a{
+    color: var(--yellow);
+    font-size: 25px;
+    padding-left: 200px;
+    padding-top: 20px;
+}
+.follow a:hover{
+    color: white;
+}
+.copyright{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.copyright a{
+    color: var(--yellow);
+   text-decoration-line: none;
+}

@@ -1,0 +1,78 @@
+.delete-page {
+  padding: 20px;
+  max-width: 12000px;
+  margin: auto;
+  background-color: var(--blue);
+}
+
+.delete-page h1 {
+  text-align: center;
+  color: var(--yellow);
+  margin-bottom: 20px;
+}
+
+.success {
+  text-align: center;
+  color: green;
+  font-weight: bold;
+}
+
+.error {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.card p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.card-image {
+  margin-top: 10px;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.card button {
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-top: 10px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: var(--blue);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: var(--yellow);
+  color: var(--blue);
+}

@@ -1,0 +1,58 @@
+.back{
+  cursor: pointer;
+}
+
+
+
+.student-request-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background: var(--blue);
+  border-radius: 30px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.student-request-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--yellow);
+}
+.report{
+  color: white;
+}
+.request-list {
+  list-style: none;
+  padding: 0;
+}
+
+.request-card {
+  background-color: #dedeec;
+  margin-bottom: 15px;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  transition: all 0.2s ease-in-out;
+}
+
+.request-card:hover {
+  border-color: var(--yellow);
+  box-shadow: 0 0 10px var(--yellow);
+}
+
+.request-card h3 {
+  margin-top: 0;
+  color: var(--yellow);
+}
+
+.notice{
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 20px;
+  background-color: var(--light);
+}
+.notice h1{
+  text-transform: uppercase;
+  color: var(--blue);
+}

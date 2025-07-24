@@ -1,0 +1,77 @@
+/* navbar */
+#doc{
+    color: #F1AD1D;
+    font-size: 23px;
+}
+#doc:hover{
+    color:white;
+    margin-bottom: -1px;
+    margin-top: -1px;
+}
+.navbar {
+  position: sticky !important;
+  top: 0;
+  z-index: 1050 !important; /* Make sure it's on top of other elements */
+  width: 100%;   /* Ensure it takes full width */
+  background-color: #163269;
+  padding-top: 20px !important;
+ padding-bottom: 20px  !important;
+}
+.navbar-toggler{
+  color: white !important;
+  border: none  !important;
+}
+.navbar-toggler:hover{
+  border: none !important ;
+}
+
+
+/* From Uiverse.io by adamgiebl */ 
+
+.arrow {
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    padding: 0.7em 2em;
+    border: 2px solid rgb(235, 188, 128) ;
+    border-radius: 2px;
+    position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+    color: black;
+    background-color:rgb(235, 188, 128);
+    text-decoration: none;
+    transition: 0.3s ease all;
+    z-index: 1;
+  }
+  
+  .arrow:before {
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color:black;
+    z-index: -1;
+  }
+  
+  .arrow:hover, .arrow:focus {
+    color: white;
+  }
+  
+  .arrow:hover:before, .arrow:focus:before {
+    transition: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+  }
+  
+  .arrow:active {
+    transform: scale(0.9);
+  }
+/* navbar */

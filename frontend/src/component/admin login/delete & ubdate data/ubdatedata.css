@@ -1,0 +1,68 @@
+.ubdate{
+  background-color: var(--blue);
+  padding-top: 25px;
+  padding-bottom: 28px;
+}
+.update-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: var(--yellow);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.update-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #1e2a78;
+}
+
+.update-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.update-container input,
+.update-container textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  resize: none;
+  background-color: white;
+  color: black;
+}
+
+.update-container textarea {
+  min-height: 100px;
+}
+
+.update-container button {
+  padding: 12px;
+  background-color: var(--blue);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.update-container button:hover {
+  background-color: black;
+}
+
+.success {
+  color: var(--blue);
+  text-align: center;
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}

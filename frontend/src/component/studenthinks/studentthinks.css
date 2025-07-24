@@ -1,0 +1,37 @@
+.item{
+    background-color: var(--yellow);
+    padding: 30px;
+    border-radius: 10px;
+}
+.item h1{
+    color: var(--blue) !important;
+}
+.color{
+    background-color: var(--blue);
+}
+.student-thinks-container h1{
+    color: var(--yellow);
+}
+.student-thinks-container p{
+    color: white;
+}
+.card{
+    background-color: var(--light);
+}
+.card h3{
+    color: var(--blue);
+    text-transform: uppercase;
+}
+.card p{
+    color: black;
+}
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+.text-end{
+    color: var(--blue);
+}
+.text-end:hover{
+   color: black;
+}

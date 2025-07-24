@@ -1,0 +1,90 @@
+/* Navbar styling */
+.navbar2 {
+    background-color: var(--light);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: flex-end; /* Align Logout button to the right */
+    align-items: center;
+}
+
+/* Admin container */
+.adminlogin {
+    color: var(--blue);
+    font-size: 18px;
+}
+
+/* Logout button */
+.logout {
+    cursor: pointer;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+}
+
+.logout:hover {
+    color: var(--yellow);
+}
+
+
+
+
+.create{
+  background-color: var(--blue);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.admin-form {
+  max-width: 500px;
+  margin: 40px auto;
+  background-color: var(--yellow);
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.admin-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: rgb(9, 9, 82);
+}
+
+.admin-form input,
+.admin-form textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+  background-color:white;
+  color: black;
+}
+
+.admin-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.admin-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: rgb(9, 9, 82);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.admin-form button:hover {
+  background-color: red;
+}
+
+/* Optional: styling for success/error messages */
+.admin-form p {
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
